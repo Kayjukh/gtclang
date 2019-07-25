@@ -17,8 +17,8 @@
 include(yodaCheckAndSetCXXFlag)
 include(yodaExportPackage)
 
-set(llvm_clang_version "10.0.0")
-set(llvm_clang_version_short "10.0")
+set(llvm_clang_version "9.0.0")
+set(llvm_clang_version_short "9.0")
 
 find_package(Clang ${llvm_clang_version_short} REQUIRED NO_CONFIG)
 
